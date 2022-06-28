@@ -131,8 +131,8 @@ public class Main {
 
         String number;
 
-        number = units[Integer.parseInt(split[0])] + " hundred and " + tensNumber(Integer.parseInt(split[1] + split[2]));
-        return number;
+        return units[Integer.parseInt(split[0])] + " hundred and " + tensNumber(Integer.parseInt(split[1] + split[2]));
+        //return number;
     }
 
     public static String tensNumber(int a) {
